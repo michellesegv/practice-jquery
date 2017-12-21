@@ -1,10 +1,10 @@
 $(document).ready(function(){
   // Añadiendo la clase 'purple' a los elementos 'li'
-  $('li').addClass('purple');
+  $('li:first-child').addClass('purple');
   
   // Añadiendo la clase 'yellow' al elemento con el id 'info'
-  $('#info').addClass('yellow');
+  $('li:last-child').addClass('yellow');
 
   // Añadiendo la clase 'red' a los elementos con la clase 'title'
-  $('.title').addClass('red');
+  $('.title:nth-child(1)').addClass('red');
 })
